@@ -23,8 +23,8 @@ Disini saya membuat 6 endpoint yang masing masing response nya berupa JSON. Saya
 
 ```json
 {
-    "status" : 401, // (int HTTP response code)
-    "message" : "Unauthorized", // (String, pesan sukses dan error, termasuk validation error)
+    "status" : 401,
+    "message" : "Unauthorized",
 }
 ```
 
@@ -34,8 +34,8 @@ Dan berikut apa bila request berhasil dan success maka response yang diberikan a
 
     ```json
     {
-        "status" : 201, // (int HTTP response code)
-        "message" : "Register Success", // (String, pesan sukses dan error, termasuk validation error)
+        "status" : 201,
+        "message" : "Register Success", 
     }
     ```
 
@@ -43,11 +43,11 @@ Dan berikut apa bila request berhasil dan success maka response yang diberikan a
 
     ```json
     {
-        "status" : 200, // (int HTTP response code)
-        "message" : "Register Success", // (String, pesan sukses dan error, termasuk validation error)
+        "status" : 200,
+        "message" : "Register Success", 
         "data" : {
-            "id" : 1, // (int, user id)
-            "token" "sdjahdjadhsja" // (String, JSON WEB TOKEN)
+            "id" : 1, 
+            "token" "sdjahdjadhsja" 
         }
     }
     ```
@@ -56,9 +56,9 @@ Dan berikut apa bila request berhasil dan success maka response yang diberikan a
 
     ```json
     {
-        "status" : 200, // (int HTTP response code)
-        "message" : "Register Success", // (String, pesan sukses dan error, termasuk validation error)
-        "data" : [ // (Array of User object)
+        "status" : 200,
+        "message" : "Register Success", 
+        "data" : [ 
             ....
             {
                 "id": "1",
@@ -75,9 +75,9 @@ Dan berikut apa bila request berhasil dan success maka response yang diberikan a
 
     ```json
     {
-        "status" : 200, // (int HTTP response code)
-        "message" : "Register Success", // (String, pesan sukses dan error, termasuk validation error)
-        "data" : {  // (User object)
+        "status" : 200, 
+        "message" : "Register Success", 
+        "data" : {  
             "id": "1",
             "email": "gopal9@gopal.com",
             "name": "Gopal",
