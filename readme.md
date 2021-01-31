@@ -1,5 +1,7 @@
 # Penjelasan singkat aplikasi
 
+> Silahkan clone repo ini. Jalankan backend menggunakan web server seperri apache atau nginx. Jika tidak bisa terkoneksi dengan frontend coba matikan terlebih dahulu firewall nya kemudian sesuaikan IP yang ada di frontend dengan IP di computer nya, (bisa di liat di `ipconfig`).
+
 ## Backend
 
 Backend dibuat menggunkan PHP dengan framework Codeigniter 4. Sebelum pakai, rename dulu file `env` jadi `.env` lalu sesuiakan dengan databasenya. Desain database sebagai berikut
